@@ -18,11 +18,13 @@ function Expediente() {
               representantes, etc. Podrá darlo de alta desde el <strong>Menú Principal &gt; Agentes &gt; Nuevo</strong>.
               <div><img src="newAgente1.png" alt="Imagen de ejemplo" className="inline-block w-64 h-auto ml-2" /></div>
           </li>
+
+          <li className="mb-4 text-2xl">
+            Deberá cumplimentar los datos obligatorios, marcados con <strong>*</strong>, y pulsar <strong>GUARDAR AGENTE</strong>.
+          </li>
+
+
         </ul>
-        
-        <p className="mb-4">
-          Deberá cumplimentar los datos obligatorios, marcados con <strong>*</strong>, y pulsar <strong>GUARDAR AGENTE</strong>.
-        </p>
       </section>
 
       {/* Sección 2 */}
