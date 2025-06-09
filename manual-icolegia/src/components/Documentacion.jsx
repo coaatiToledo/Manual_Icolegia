@@ -2,7 +2,7 @@ import React from 'react'
 
 function Documentacion() {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <div className="max-w-5xl  px-4 py-8">
       <h1 className="text-3xl font-bold text-center mb-10">Manual de Uso - Documentación</h1>
 
       {/* Sección 3 */}

@@ -14,8 +14,8 @@ function Navegacion() {
   ];
 
   return (
-    <div className="bg-white   mt-7 py-10">
-            <nav className="w-full  flex justify-center p-4  gap-4"> 
+    <div className="py-10">
+            <nav className=" ml-40 flex gap-4"> 
             {tabs.map((tab) => (
             <BtnNavegacion
                 key={tab.id}
@@ -28,7 +28,7 @@ function Navegacion() {
        
 
        
-      <section className=" bg-white shadow-md ">
+      <section className=" bg-blue-50 mt-5  ml-20">
         {tabs.find(tab => tab.id === activeTab)?.componente}
       </section>
    
