@@ -28,7 +28,7 @@ function Navegacion() {
        
 
        
-      <section className=" bg-blue-50 mt-5  ml-20">
+      <section className=" bg-blue-50 mt-5  ml-5">
         {tabs.find(tab => tab.id === activeTab)?.componente}
       </section>
    

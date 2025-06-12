@@ -8,9 +8,9 @@ function Header() {
         alt="Descripción de la imagen"
         className="  object-cover rounded-full shadow-md    "
       />
-      <p className="mt-5  text-center text-gray-800 text-3xl">
+      <p className="mt-5  text-center text-white text-3xl">
         Bienvenido al manual de usario de <span className='text-4xl'>CoaatieToledo</span>
-        <br />pinchan en las pestañas de abajo para acceder a los dintintos apartados
+        <br />pincha en las pestañas de abajo para acceder a los dintintos apartados
       </p>
     </header>
   );

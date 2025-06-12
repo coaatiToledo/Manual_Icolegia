@@ -1,34 +1,16 @@
 import React from 'react'
+import ZonaGenerarDoc from './ApartadoDocumentacion/ZonaGenerarDoc'
+import GenerarDocumentacion from './ApartadoDocumentacion/GenerarDocumentacion'
 
 function Documentacion() {
   return (
-    <div className="max-w-5xl  px-4 py-8">
-      <h1 className="text-3xl font-bold text-center mb-10">Manual de Uso - Documentación</h1>
+    <div className="  px-4 py-8">
+      <h1 className="text-5xl font-semibold text-blue-700 mb-8 ml-45 ">Manual de Uso - Documentación</h1>
+        <ZonaGenerarDoc />
+        <GenerarDocumentacion />
 
-      {/* Sección 3 */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-indigo-700 mb-4">3. Acceso a la Zona de generar documentación</h2>
-        <ol className="list-decimal list-inside space-y-2 text-gray-800">
-          <li>Guarda correctamente el expediente sin errores.</li>
-          <li>Haz clic en el ícono de la nube en la parte superior izquierda.</li>
-          <li>Desplázate hacia abajo hasta encontrar las plantillas de documentos.</li>
-        </ol>
-      </section>
-
-      {/* Sección 4 */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-indigo-700 mb-4">4. Generación de documentos</h2>
-
-        {/* Subapartado 3.1 */}
-        <div className="mb-6">
-          <h3 className="text-xl font-semibold text-indigo-600 mb-2">4.1 Solicitud de Gestión de Gastos de Tramitación</h3>
-          <ul className="list-disc list-inside space-y-1 text-gray-700">
-            <li>Accede a la solicitud y selecciona la actuación correspondiente.</li>
-            <li>Marca los conceptos a solicitar y completa los campos de facturación y cobro.</li>
-            <li>Si seleccionas ciertos conceptos, deberás adjuntar documentación adicional.</li>
-            <li>Genera el documento y, si es por cargo en cuenta, también se descarga la autorización.</li>
-          </ul>
-        </div>
+  
+      <section className="mt-10">
 
         {/* Subapartado 3.2 */}
         <div className="mb-6">

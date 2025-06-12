@@ -1,6 +1,10 @@
 import React from 'react'
 
 function NuevoAgente({ onVolverClick }) {
+    const handleVolver = () => {
+    onVolverClick();
+    window.scrollTo({ top: 700, behavior: 'smooth' });
+  };
   return (
     <section className="mb-12">
       
@@ -16,8 +20,8 @@ function NuevoAgente({ onVolverClick }) {
         </li>
       </ul>
       <button
-        className='bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600 cursor-pointer mb-4'
-        onClick={onVolverClick}
+        className='bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-600 cursor-pointer mb-4'
+        onClick={handleVolver}
       >
         Volver
       </button>
