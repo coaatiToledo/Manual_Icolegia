@@ -14,30 +14,34 @@ function SolicitudVisado() {
         <li>
           <strong>Paso 2:</strong> Introduce la fecha y marca las intervenciones
           para los que solicitas el visado
-          <p>
-            ⚠️ Si no introduces la fecha, no se descargará el archivo.
-          </p>
+          <p>⚠️ Si no introduces la fecha, no se descargará el archivo.</p>
           <div className="mt-5 ml-5 mb-5">
             <img src="/GenerarDocImg/apartado2-4img2.png" alt="generarDoc" />
           </div>
         </li>
         <li>
-          <strong>Paso 3:</strong>Marcamos la opción deceada y genera la solicitud de Visado Voluntario
+          <strong>Paso 3:</strong>Marcamos la opción deceada y genera la
+          solicitud de Visado Voluntario
           <ol className="list-decimal list-inside space-y-3 ml-10 mt-10 text-2xl font-bold">
             <li>
-              Si hay cliente, selecciona "Generar solicitud de cliente". 
+              Si hay cliente, selecciona "Generar solicitud de cliente".
               <div className="mt-5 ml-5 mb-5">
-            <img src="/GenerarDocImg/apartado2-4img3.png" alt="generarDoc" />
-          </div>
+                <img
+                  src="/GenerarDocImg/apartado2-4img3.png"
+                  alt="generarDoc"
+                />
+              </div>
             </li>
 
             <li>
               Si no hay cliente, selecciona "Generar solicitud de proveedor".
-               <div className="mt-5 ml-5 mb-5">
-            <img src="/GenerarDocImg/apartado2-4img4.png" alt="generarDoc" />
-          </div>
+              <div className="mt-5 ml-5 mb-5">
+                <img
+                  src="/GenerarDocImg/apartado2-4img4.png"
+                  alt="generarDoc"
+                />
+              </div>
             </li>
-
           </ol>
         </li>
       </ul>

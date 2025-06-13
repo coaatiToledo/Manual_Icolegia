@@ -75,9 +75,13 @@ function GenerarDocumentacion() {
       {/* Minuta*/}
       <div className="flex items-center mb-4 ml-5 gap-4">
         <h3 className="text-3xl font-semibold m-0">
-          2.3 Minuta (<span className="text-blue-500">si se quieren cobrar los honorarios a través del colegio
-          es obligatorio presentarlo. Además, hay que cumplimentar los datos
-          referentes a honorarios en el paso 6 de la base de datos</span>)
+          2.3 Minuta (
+          <span className="text-blue-500">
+            si se quieren cobrar los honorarios a través del colegio es
+            obligatorio presentarlo. Además, hay que cumplimentar los datos
+            referentes a honorarios en el paso 6 de la base de datos
+          </span>
+          )
         </h3>
         <button
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
@@ -96,14 +100,11 @@ function GenerarDocumentacion() {
             Cerrar
           </button>
         </>
-        
       )}
 
       {/* Solicitud de Visado */}
       <div className="flex items-center mb-4 ml-5 gap-4">
-        <h3 className="text-3xl font-semibold m-0">
-          2.4 Solicitud de Visado
-        </h3>
+        <h3 className="text-3xl font-semibold m-0">2.4 Solicitud de Visado</h3>
         <button
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
           onClick={() => setMostrarvisado((v) => !v)}
@@ -123,56 +124,55 @@ function GenerarDocumentacion() {
         </>
       )}
 
-      {/* Declaración Jurada */}  
+      {/* Declaración Jurada */}
+      <div className="flex items-center mb-4 ml-5 gap-4">
+        <h3 className="text-3xl font-semibold m-0">2.5 Declaración Jurada</h3>
+        <button
+          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          onClick={() => setMostrardeclaracion((v) => !v)}
+        >
+          {mostrarsdeclaracionjurada ? "Cerrar" : "Ver"}
+        </button>
+      </div>
+      {mostrarsdeclaracionjurada && (
+        <>
+          <DeclaracionJurada />
+          <button
+            className="ml-5 mb-8 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            onClick={() => setMostrardeclaracion(false)}
+          >
+            Cerrar
+          </button>
+        </>
+      )}
+
+      {/* Descarga de Documentos */}
       <div className="flex items-center mb-4 ml-5 gap-4">
         <h3 className="text-3xl font-semibold m-0">
-          2.5 Declaración Jurada
+          2.6 Descarga de Documentos autocompletados(
+          <span className="text-blue-500">
+            Nota de Encargo, Comunicación al Ayuntamiento, Contrato, Novación…
+          </span>
+          )
         </h3>
         <button
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"    
-          onClick={() => setMostrardeclaracion((v) => !v)}       
+          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          onClick={() => setMostrarDescargaDoc((v) => !v)}
         >
-          {mostrarsdeclaracionjurada ? "Cerrar" : "Ver"} 
+          {mostrarsdeDescargaDoc ? "Cerrar" : "Ver"}
         </button>
-        </div>    
-        {mostrarsdeclaracionjurada && (
-          <>
-            <DeclaracionJurada />
-            <button
-              className="ml-5 mb-8 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-              onClick={() => setMostrardeclaracion(false)}
-            >
-              Cerrar
-            </button>
-          </>
-        )}
-      
-        {/* Descarga de Documentos */}
-        <div className="flex items-center mb-4 ml-5 gap-4">
-          <h3 className="text-3xl font-semibold m-0">
-            2.6 Descarga de Documentos
-          </h3>
+      </div>
+      {mostrarsdeDescargaDoc && (
+        <>
+          <DescargaDoc />
           <button
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-            onClick={() => setMostrarDescargaDoc((v) => !v)}
+            className="ml-5 mb-8 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            onClick={() => setMostrarDescargaDoc(false)}
           >
-            {mostrarsdeDescargaDoc ? "Cerrar" : "Ver"}
-          </button>     
-          </div>
-        {mostrarsdeDescargaDoc && (
-          <>
-            <DescargaDoc />
-            <button
-              className="ml-5 mb-8 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-              onClick= {() => setMostrarDescargaDoc(false)}
-            >        
-              Cerrar
-            </button>
-          </>
-        )}      
-      
-      
-
+            Cerrar
+          </button>
+        </>
+      )}
     </div>
   );
 }
