@@ -78,8 +78,7 @@ function GenerarDocumentacion() {
           2.3 Minuta (
           <span className="text-blue-500">
             si se quieren cobrar los honorarios a través del colegio es
-            obligatorio presentarlo. Además, hay que cumplimentar los datos
-            referentes a honorarios en el paso 6 de la base de datos
+            obligatorio presentarlo.
           </span>
           )
         </h3>

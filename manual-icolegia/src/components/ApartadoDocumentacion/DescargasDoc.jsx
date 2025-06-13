@@ -33,10 +33,10 @@ function DescargasDoc() {
           </div>
           <p>
             ⚠️Importante, una vez generado los documentos, el colegiado debe
-            <strong>firmarlo digitalmente</strong> en los documentos que le corresponda firmar{" "}
+            <strong> firmarlo digitalmente</strong> en los documentos que le corresponda firmar{" "}
           </p>
         </li>
-        
+
       </ul>
     </div>
   );
