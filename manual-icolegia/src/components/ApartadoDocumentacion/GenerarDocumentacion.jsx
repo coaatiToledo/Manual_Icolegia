@@ -47,7 +47,7 @@ function GenerarDocumentacion() {
       {/* Libro de incidencias */}
       <div className="flex items-center mb-4 ml-5 gap-4">
         <h3 className="text-3xl font-semibold m-0">
-          2.3 Solicitud de Libro de Incidencias (
+          2.2 Solicitud de Libro de Incidencias (
           <span className="text-blue-500">
             si se quiere el libro de incidencias es obligatorio presentarlo
           </span>
@@ -75,7 +75,7 @@ function GenerarDocumentacion() {
       {/* Minuta*/}
       <div className="flex items-center mb-4 ml-5 gap-4">
         <h3 className="text-3xl font-semibold m-0">
-          2.4 Minuta (<span className="text-blue-500">si se quieren cobrar los honorarios a través del colegio
+          2.3 Minuta (<span className="text-blue-500">si se quieren cobrar los honorarios a través del colegio
           es obligatorio presentarlo. Además, hay que cumplimentar los datos
           referentes a honorarios en el paso 6 de la base de datos</span>)
         </h3>
@@ -102,7 +102,7 @@ function GenerarDocumentacion() {
       {/* Solicitud de Visado */}
       <div className="flex items-center mb-4 ml-5 gap-4">
         <h3 className="text-3xl font-semibold m-0">
-          2.5 Solicitud de Visado
+          2.4 Solicitud de Visado
         </h3>
         <button
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
@@ -126,7 +126,7 @@ function GenerarDocumentacion() {
       {/* Declaración Jurada */}  
       <div className="flex items-center mb-4 ml-5 gap-4">
         <h3 className="text-3xl font-semibold m-0">
-          2.6 Declaración Jurada
+          2.5 Declaración Jurada
         </h3>
         <button
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"    
@@ -150,7 +150,7 @@ function GenerarDocumentacion() {
         {/* Descarga de Documentos */}
         <div className="flex items-center mb-4 ml-5 gap-4">
           <h3 className="text-3xl font-semibold m-0">
-            2.7 Descarga de Documentos
+            2.6 Descarga de Documentos
           </h3>
           <button
             className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
