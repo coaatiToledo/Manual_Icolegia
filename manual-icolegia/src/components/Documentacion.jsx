@@ -17,7 +17,7 @@ function Documentacion() {
         <GenerarDocumentacion />
         <AdjuntarDoc />
          <button
-          className="bg-black text-white px-2 py-2 rounded-lg hover:bg-gray-600 cursor-pointer mb-4 w-35"
+          className="bg-black text-white px-2 py-2 rounded-lg hover:bg-blue-600 cursor-pointer mb-4 w-35"
           onClick={initialScroll}
         >
           {" "}

@@ -200,7 +200,7 @@ function NuevoExpediente({ onAgenteClick }) {
           </li>
         </ul>
         <button
-          className="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-600 cursor-pointer mb-4"
+          className="bg-black text-white px-4 py-2 rounded-lg hover:bg-blue-600 cursor-pointer mb-4"
           onClick={initialScroll}
         >
           {" "}
