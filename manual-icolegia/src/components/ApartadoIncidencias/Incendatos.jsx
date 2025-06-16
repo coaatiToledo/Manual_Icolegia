@@ -17,52 +17,52 @@ function Incendatos() {
           Despliega la pestaña de <strong>Expediente</strong> y haz clic en el apartado de {" "}
           <strong>Requeridos</strong>, para ver la incidencia con el informe de incidencia
            <div className="mt-5 ml-5 mb-5">
-              <img src="./IncidenciasImg/apartado1img1.png" alt="generarDoc" />
+              <img src="./IncidenciasImg/apartado1img1.png" alt="generarDoc" loading="lazy"/>
             </div>
         </li>
         <li>
           Identifica el expediente por su código digital, pincha en el icono amarillo para ver la incidencia
           <div className="mt-5 ml-5 mb-5 px-5">
-              <img src="./IncidenciasImg/apartado1img2.png" alt="generarDoc" />
+              <img src="./IncidenciasImg/apartado1img2.png" alt="generarDoc" loading="lazy"/>
             </div>
         </li>
 
         <li>
           Descarga el PDF con el detalle de la incidencia haciendo clic en Incidencias.pdf 
           <div className="mt-5 ml-5 mb-5 px-5   ">
-              <img src="./IncidenciasImg/apartado1img3.png" alt="generarDoc" />
-              <img src="./IncidenciasImg/apartado1img4.png" alt="" className="mt-7.5" />
+              <img src="./IncidenciasImg/apartado1img3.png" alt="generarDoc" loading="lazy"/>
+              <img src="./IncidenciasImg/apartado1img4.png" alt="" className="mt-7.5" loading="lazy"/>
             </div>
         </li>
         <li>
           Haz clic en el <strong>lápiz</strong> del expediente para modificar los datos necesarios.
            <div className="mt-5 ml-5 mb-5 px-5">
-              <img src="./IncidenciasImg/apartado1img5.png" alt="generarDoc" />
+              <img src="./IncidenciasImg/apartado1img5.png" alt="generarDoc" loading="lazy"/>
             </div>
         </li>
         <li>
          Ve al apartado donde están los datos a modificar y Guarda los cambios  
          <div className="mt-5 ml-5 mb-5 px-5">
-              <img src="./IncidenciasImg/apartado1img6.png" alt="generarDoc" />
+              <img src="./IncidenciasImg/apartado1img6.png" alt="generarDoc" loading="lazy"/>
             </div>
         </li>
         <li>
           Vuelve a generar los documentos requeridos 
           <div className="mt-5 ml-5 mb-5 px-5">
-              <img src="./IncidenciasImg/apartado1img7.png" alt="generarDoc" />
+              <img src="./IncidenciasImg/apartado1img7.png" alt="generarDoc" loading="lazy"/>
             </div>
         </li>
         <li>
           	Adjunta los documentos igual que la primera vez 
              <div className="mt-5 ml-5 mb-5 px-5">
-              <img src="./IncidenciasImg/apartado1img8.png" alt="generarDoc" />
-              <img src="./IncidenciasImg/apartado1img9.png" alt="generarDoc" className="mt-9" />
+              <img src="./IncidenciasImg/apartado1img8.png" alt="generarDoc" loading="lazy"/>
+              <img src="./IncidenciasImg/apartado1img9.png" alt="generarDoc" className="mt-9" loading="lazy"/>
             </div>
         </li>
         <li>
           Volvemos a enviar en el botón verde del avión
           <div className="mt-5 ml-5 mb-5 px-5">
-              <img src="./IncidenciasImg/apartado1img10.png" alt="generarDoc" />
+              <img src="./IncidenciasImg/apartado1img10.png" alt="generarDoc" loading="lazy"/>
             </div>
         </li>
       </ul>

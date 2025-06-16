@@ -10,20 +10,20 @@ function SolicitudGastos() {
             derecha para acceder a las opciones de solicitud de gestión de
             gastos
             <div className="mt-5 ml-5 mb-5">
-              <img src="/GenerarDocImg/apartado2Img1.png" alt="apartado2Img1" />
+              <img src="/GenerarDocImg/apartado2Img1.png" alt="apartado2Img1" loading="lazy"/>
             </div>
           </li>
           <li>
             <strong>Paso 2: </strong>En Actuación Solicitada Haz clic izquierdo
             en la flecha de la derecha{" "}
             <div className="mt-5 ml-5 mb-5">
-              <img src="/GenerarDocImg/apartado2Img2.png" alt="generarDoc" />
+              <img src="/GenerarDocImg/apartado2Img2.png" alt="generarDoc" loading="lazy"/>
             </div>
           </li>
           <li>
             <strong>Paso 3: </strong>Selecciona la actuación correspondiente.{" "}
             <div className="mt-5 ml-5 mb-5">
-              <img src="/GenerarDocImg/apartado3img.png" alt="generarDoc" />
+              <img src="/GenerarDocImg/apartado3img.png" alt="generarDoc" loading="lazy"/>
             </div>
           </li>
 
@@ -31,7 +31,7 @@ function SolicitudGastos() {
             <strong>Paso 4: </strong>En Conceptos Solicitados haz clic izquierdo
             en la flecha de la derecha{" "}
             <div className="mt-5 ml-5 mb-5">
-              <img src="/GenerarDocImg/apartado4img.png" alt="generarDoc" />
+              <img src="/GenerarDocImg/apartado4img.png" alt="generarDoc" loading="lazy"/>
             </div>
           </li>
 
@@ -47,14 +47,14 @@ function SolicitudGastos() {
                   De lo contrario, se generará una incidencia.
                 </p>
                 <div className="mt-5 ml-5 mb-5">
-                  <img src="/GenerarDocImg/paso5img1.png" alt="generarDoc" />
+                  <img src="/GenerarDocImg/paso5img1.png" alt="generarDoc" loading="lazy"/>
                 </div>
                 <strong>
                   Si se va a pagar por cuenta bancaria, es obligatorio marcar
                   "Gastos bancarios".
                 </strong>
                 <div className="mt-5 ml-5 mb-5">
-                  <img src="/GenerarDocImg/paso5img2.png" alt="generarDoc" />
+                  <img src="/GenerarDocImg/paso5img2.png" alt="generarDoc" loading="lazy"/>
                 </div>
               </li>
             </ol>
@@ -63,13 +63,13 @@ function SolicitudGastos() {
             <strong>Paso6:</strong> Donde dice “Los Gastos de Tramitación se
             Facturan A:” haz clic izquierdo en la flecha de la derecha “
             <div className="mt-5 ml-5 mb-5">
-              <img src="/GenerarDocImg/paso6img1.png" alt="generarDoc" />
+              <img src="/GenerarDocImg/paso6img1.png" alt="generarDoc" loading="lazy"/>
             </div>
             <ol className="list-decimal list-inside space-y-3 ml-10 mt-10 text-2xl font-bold">
               <li>
                 Selecciona a quién se le facturan los gastos
                 <div className="mt-5 ml-5 mb-5">
-                  <img src="/GenerarDocImg/paso6img2.png" alt="generarDoc" />
+                  <img src="/GenerarDocImg/paso6img2.png" alt="generarDoc" loading="lazy"/>
                 </div>
               </li>
             </ol>
@@ -78,7 +78,7 @@ function SolicitudGastos() {
             <strong>Paso7:</strong> Donde dice “Los Gastos de Tramitación se
             Abonarán:” haz clic izquierdo en la flecha de la derecha“
             <div className="mt-5 ml-5 mb-5">
-              <img src="/GenerarDocImg/paso7img1.png" alt="generarDoc" />
+              <img src="/GenerarDocImg/paso7img1.png" alt="generarDoc" loading="lazy"/>
             </div>
             <ol className="list-decimal list-inside space-y-3 ml-10 mt-10 text-2xl font-bold">
               <li>
@@ -92,7 +92,7 @@ function SolicitudGastos() {
                   abonarse a través de transferencia bancaria
                 </p>
                 <div className="mt-5 ml-5 mb-5">
-                  <img src="/GenerarDocImg/paso7img2.png" alt="generarDoc" />
+                  <img src="/GenerarDocImg/paso7img2.png" alt="generarDoc" loading="lazy"/>
                 </div>
               </li>
             </ol>
@@ -106,13 +106,13 @@ function SolicitudGastos() {
                 Si el pago es por cargo en cuenta, se descargarán los documentos
                 solicitud de gestión de gastos y autorización
                 <div className="mt-5 ml-5 mb-5">
-                  <img src="/GenerarDocImg/paso8img1.png" alt="generarDoc" />
+                  <img src="/GenerarDocImg/paso8img1.png" alt="generarDoc" loading="lazy"/>
                 </div>
               </li>
               <li>
                 Si el pago es por transferencia solo se descarga la solicitud
                 <div className="mt-5 ml-5 mb-5">
-                  <img src="/GenerarDocImg/paso8img2.png" alt="generarDoc" />
+                  <img src="/GenerarDocImg/paso8img2.png" alt="generarDoc" loading="lazy"/>
                 </div>
               </li>
             </ol>

@@ -17,20 +17,20 @@ function Incdocumental() {
           apartado anterior donde nos descargamos el pdf para ver los documentos
           que nos faltan por enviar
           <div className="mt-5 ml-5 mb-5">
-            <img src="./IncidenciasImg/apartado2img1.png" alt="generarDoc" />
+            <img src="./IncidenciasImg/apartado2img1.png" alt="generarDoc" loading="lazy"/>
           </div>
         </li>
         <li>
           Una vez ya vista la incidencia pinchamos en la carpeta o nube si no
           está la carpeta
           <div className="mt-5 ml-5 mb-5">
-            <img src="./IncidenciasImg/apartado2img2.png" alt="generarDoc" />
+            <img src="./IncidenciasImg/apartado2img2.png" alt="generarDoc" loading="lazy"/>
           </div>
         </li>
         <li>
           Haz clic en "Adjuntar" para subir los documentos correctos requeridos
           <div className="mt-5 ml-5 mb-5">
-            <img src="./IncidenciasImg/apartado2img3.png" alt="generarDoc" />
+            <img src="./IncidenciasImg/apartado2img3.png" alt="generarDoc" loading="lazy"/>
           </div>
         </li>
         <li>
@@ -38,7 +38,7 @@ function Incdocumental() {
           <strong>Archivo</strong>, selecciona el documento a subir y pincha en
           adjuntar
           <div className="mt-5 ml-5 mb-5">
-            <img src="./IncidenciasImg/apartado2img4.png" alt="generarDoc" />
+            <img src="./IncidenciasImg/apartado2img4.png" alt="generarDoc" loading="lazy"/>
           </div>
           <p>
             Cuando le demos al botón <strong>adjuntar</strong>, se enviará automáticamente la

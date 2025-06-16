@@ -18,6 +18,7 @@ function DescargasDoc() {
               src="/GenerarDocImg/apartado2-6img1.png"
               alt="generarDoc"
               className="mt-5 ml-5 mb-5"
+              loading="lazy"
             />
           </div>
         </li>
@@ -29,6 +30,7 @@ function DescargasDoc() {
               src="/GenerarDocImg/apartado2-6img2.png"
               alt="generarDoc"
               className="mt-5 ml-5 mb-5"
+              loading="lazy"
             />
           </div>
           <p>

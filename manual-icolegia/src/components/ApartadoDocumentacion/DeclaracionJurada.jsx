@@ -8,7 +8,7 @@ function DeclaracionJurada() {
           <strong>Paso1:</strong> En Declaración Jurada haz clic izquierdo en la
           flecha de la derecha
           <div className="mt-5 ml-5 mb-5">
-            <img src="/GenerarDocImg/apartado2-5img1.png" alt="generarDoc" />
+            <img src="/GenerarDocImg/apartado2-5img1.png" alt="generarDoc" loading="lazy"/>
           </div>
         </li>
         <li>
@@ -16,14 +16,14 @@ function DeclaracionJurada() {
           la firma de la propiedad y declaramos que obra en nuestro poder, por
           ello se presenta esta declaración jurada
           <div className="mt-5 ml-5 mb-5">
-            <img src="/GenerarDocImg/apartado2-5img2.png" alt="generarDoc" />
+            <img src="/GenerarDocImg/apartado2-5img2.png" alt="generarDoc" loading="lazy"/>
           </div>
         </li>
         <li>
           <strong>Paso 3:</strong> Introduce la fecha y genera el archivo.
           <p>⚠️ Si no introduces la fecha, el sistema generará un error.</p>
           <div className="mt-5 ml-5 mb-5">
-            <img src="/GenerarDocImg/apartado2-5img3.png" alt="generarDoc" />
+            <img src="/GenerarDocImg/apartado2-5img3.png" alt="generarDoc" loading="lazy"/>
           </div>
         </li>
       </ul>

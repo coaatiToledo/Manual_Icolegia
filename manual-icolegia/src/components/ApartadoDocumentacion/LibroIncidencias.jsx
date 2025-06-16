@@ -9,14 +9,14 @@ function LibroIncidencias() {
           en conceptos{" "}
         </p>
         <div className="mt-5 ml-5 mb-5">
-          <img src="/GenerarDocImg/apartado2-2img1.png" alt="generarDoc" />
+          <img src="/GenerarDocImg/apartado2-2img1.png" alt="generarDoc" loading="lazy"/>
         </div>
         <ul className="list-disc list-inside space-y-10 mb-4 ml-20 text-3xl">
           <li>
             <strong>Paso 1:</strong>En Solicitud Libro de Incidencias haz clic
             izquierdo en la flecha de la derecha
             <div className="mt-5 ml-5 mb-5">
-              <img src="/GenerarDocImg/apartado2-2img2.png" alt="generarDoc" />
+              <img src="/GenerarDocImg/apartado2-2img2.png" alt="generarDoc" loading="lazy"/>
             </div>
           </li>
           <li>
@@ -36,14 +36,14 @@ function LibroIncidencias() {
               </li>
             </ol>
             <div className="mt-5 ml-5 mb-5">
-              <img src="/GenerarDocImg/apartado2-2img3.png" alt="generarDoc" />
+              <img src="/GenerarDocImg/apartado2-2img3.png" alt="generarDoc"loading="lazy" />
             </div>
           </li>
 
           <li>
             <strong>Paso3: </strong>Haz clic en "Generar PDF".
              <div className="mt-5 ml-5 mb-5">
-              <img src="/GenerarDocImg/apartado2-2img4.png" alt="generarDoc" />
+              <img src="/GenerarDocImg/apartado2-2img4.png" alt="generarDoc" loading="lazy"/>
             </div>
           </li>
 

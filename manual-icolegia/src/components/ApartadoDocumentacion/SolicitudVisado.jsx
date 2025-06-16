@@ -8,7 +8,7 @@ function SolicitudVisado() {
           <strong>Paso 1:</strong> En Solicitud Visado haz clic izquierdo en la
           flecha de la derecha.
           <div className="mt-5 ml-5 mb-5">
-            <img src="/GenerarDocImg/apartado2-4img1.png" alt="generarDoc" />
+            <img src="/GenerarDocImg/apartado2-4img1.png" alt="generarDoc" loading="lazy"/>
           </div>
         </li>
         <li>
@@ -16,7 +16,7 @@ function SolicitudVisado() {
           para los que solicitas el visado
           <p>⚠️ Si no introduces la fecha, no se descargará el archivo.</p>
           <div className="mt-5 ml-5 mb-5">
-            <img src="/GenerarDocImg/apartado2-4img2.png" alt="generarDoc" />
+            <img src="/GenerarDocImg/apartado2-4img2.png" alt="generarDoc" loading="lazy"/>
           </div>
         </li>
         <li>
@@ -29,9 +29,11 @@ function SolicitudVisado() {
                 <img
                   src="/GenerarDocImg/apartado2-4img3.png"
                   alt="generarDoc"
+                  loading="lazy"
                 />
               </div>
             </li>
+        
 
             <li>
               Si no hay cliente, selecciona "Generar solicitud de proveedor".
@@ -39,6 +41,7 @@ function SolicitudVisado() {
                 <img
                   src="/GenerarDocImg/apartado2-4img4.png"
                   alt="generarDoc"
+                  loading="lazy"
                 />
               </div>
             </li>

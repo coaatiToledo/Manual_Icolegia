@@ -9,7 +9,7 @@ function AdjuntarDoc() {
           <strong>Paso 1: </strong>Haz clic en el botón "Adjuntar" se encuentra
           casi al principio de la página.
           <div className="mt-5 ml-5 mb-5">
-            <img src="/GenerarDocImg/apartado3img1.png" alt="generarDoc" />
+            <img src="/GenerarDocImg/apartado3img1.png" alt="generarDoc" loading="lazy" />
           </div>
         </li>
         <li>
@@ -32,19 +32,19 @@ function AdjuntarDoc() {
               <span className="bg-white">Blanco</span>, es recomendado, como se
               aprecia en la imagen de abajo.
               <div className="mt-10 ml-5 mb-5">
-                <img src="/GenerarDocImg/apartado3img2.png" alt="generarDoc" />
+                <img src="/GenerarDocImg/apartado3img2.png" alt="generarDoc" loading="lazy"/>
               </div>
             </li>
             <li>
               Pinchamos en seleccionar archivo para subir documentos
               <div className="mt-10 ml-5 mb-5">
-                <img src="/GenerarDocImg/apartado3img3.png" alt="generarDoc" />
+                <img src="/GenerarDocImg/apartado3img3.png" alt="generarDoc" loading="lazy"/>
               </div>
             </li>
             <li>
               Una vez subido los documentos le damos adjuntar
               <div className="mt-10 ml-5 mb-5">
-                <img src="/GenerarDocImg/apartado3img4.png" alt="generarDoc" />
+                <img src="/GenerarDocImg/apartado3img4.png" alt="generarDoc" loading="lazy"/>
               </div>
               <p className="font-normal ml-10">
                 Los documentos se suben de 5 en 5, adjuntamos 5 y volvemos a
@@ -66,6 +66,8 @@ function AdjuntarDoc() {
                     src="/GenerarDocImg/apartado3img5.png"
                     alt="generarDoc"
                     className="w-full max-w-6xl  object-contain shadow-lg rounded-lg "
+                    loading="lazy"
+
                   />
                 </section>
                 <section>
@@ -74,6 +76,7 @@ function AdjuntarDoc() {
                     src="/GenerarDocImg/apartado3img6.png"
                     alt="generarDoc"
                     className=" w-full max-w-6xl  h-auto object-contain shadow-lg rounded-lg"
+                    loading="lazy"
                   />
                 </section>
                 <div className="py-7">
@@ -81,9 +84,10 @@ function AdjuntarDoc() {
                     src="/GenerarDocImg/apartado3img7.png"
                     alt="img7"
                     className="w-full max-w-6xl shadow-lg rounded-lg"
+                    loading="lazy"
                   />
                 </div>
-              </div>
+              </div>loading="lazy"
             </li>
           </ol>
         </li>
@@ -97,19 +101,19 @@ function AdjuntarDoc() {
             ⚠️Importante, hay documentos que aparecen como recomendados, pero son necesarios dependiendo del tipo de intervención 
           </p>
           <div className="mt-10 ml-5 mb-5">
-                <img src="/GenerarDocImg/apartado3img8.png" alt="generarDoc" />
+                <img src="/GenerarDocImg/apartado3img8.png" alt="generarDoc" loading="lazy"/>
               </div>
         </li>
         <li>
           <strong>Paso 5: </strong>Confirma el envío en la ventana emergente.
           <div className="mt-10 ml-5 mb-5">
-                <img src="/GenerarDocImg/apartado3img9.png" alt="generarDoc" />
+                <img src="/GenerarDocImg/apartado3img9.png" alt="generarDoc" loading="lazy"/>
               </div>
               <p>
                 El expediente pasará a estado "En trámite", visible en la pestaña "Expediente <span>&gt;</span> Borradores".
               </p>
                 <div className="mt-10 ml-5 mb-5 f">
-                <img src="/GenerarDocImg/apartado3img12.png" alt="generarDoc "  />
+                <img src="/GenerarDocImg/apartado3img12.png" alt="generarDoc "  loading="lazy"/>
               </div>
         </li>
       </ul>
