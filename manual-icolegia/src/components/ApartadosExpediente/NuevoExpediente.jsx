@@ -1,15 +1,15 @@
 import React from "react";
 
 function NuevoExpediente({ onAgenteClick }) {
-    const initialScroll = () => {
-        window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-        });
-    };
+  const initialScroll = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div>
-      <h2 className="text-5xl font-semibold text-blue-700 mb-4 ml-40">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-blue-700 mb-4 ml-40">
         Crear un nuevo expediente digital
       </h2>
       <p className="mb-4 text-2xl">
@@ -64,17 +64,15 @@ function NuevoExpediente({ onAgenteClick }) {
           </li>
           <li>
             <strong>Paso 3 Colegiados:</strong> Seleccionar y escribir el
-            porcentaje y seguro de responsabilidad civil de los técnicos
-            intervinientes, después <strong>SIGUIENTE.</strong>
+            porcentaje (si hay más de un colégialo) después
+            <strong> SIGUIENTE.</strong>
             <div className="mt-5 mb-5">
               <img src="/nuevoExpedienteImgs/paso3.png" alt="paso3" />
             </div>
             <p>
-              En el punto 1 de <strong>COLEGIADOS</strong>, se modifica el
-              porcentaje de ejecución del colegiado y se escribe el nombre de su
-              aseguradora de SRC. Si ejerce como Doble Condición, es decir, como
-              Arquitecto Técnico y Arquitecto, debe activar dicha casilla.
-              Después Aceptar.
+              En el punto 1 de <strong>COLEGIADOS</strong>, en el caso de que
+              hubiera más de un colégialo se modifica el porcentaje de
+              intervención de cada uno, despues Aceptar.
             </p>
             <div className="mt-5 mb-5">
               <img
@@ -83,15 +81,15 @@ function NuevoExpediente({ onAgenteClick }) {
               />
             </div>
             <p>
-              En el punto 2 de <strong>COLEGIADOS</strong>, se inserta el otro
-              técnico{" "}
-              <strong>
+              En el punto 2 de <strong>COLEGIADOS</strong>,si hubiera dos colégialos o más se insertan cada uno de ellos{" "}
+
+                  <strong> 
                 (debe estar previamente dado de alta como colegiado o
                 acreditado, lo deberá encontrar en la lista)
               </strong>{" "}
               con el que comparte el trabajo,<strong> en el botón 1</strong>,
               puede filtrar por nombre en el campo <strong>BUSCAR</strong> si no
-              lo encuentra, además, también deberá añadir el porcentaje{" "}
+              lo encuentra, además, también deberá añadir el porcentajesi hubiera dos colégialos o más se insertan cada uno de ellos 
               <strong>(3)</strong> y el nombre de su aseguradora{" "}
               <strong>(2)</strong>. Si ejerce como Doble Condición, es decir,
               como Arquitecto Técnico y Arquitecto, debe activar dicha casilla.
@@ -108,7 +106,7 @@ function NuevoExpediente({ onAgenteClick }) {
             </p>
           </li>
           <li>
-            <strong>Paso 4 Agentes:PROPIETARIO/PROMOTOR:</strong> <br />
+            <strong>Paso 4 Agentes: PROPIETARIO/PROMOTOR:</strong> <br />
             Seleccionar el <strong>punto 1</strong> y escribir el porcentaje de
             los propietarios-promotores de la obra en la ventana siguiente. El
             dato del propietario es obligatorio. Si no está dado de alta
@@ -119,10 +117,7 @@ function NuevoExpediente({ onAgenteClick }) {
             <p>
               En el <strong>punto 1</strong> de la imagen inferior, escribir el
               porcentaje en el que el propietario interviene, puede filtrar por
-              nombre en el campo BUSCAR si no lo encuentra, en el caso de ser
-              necesario facturar los gastos de registro/visado al propietario o
-              al cliente, activar el campo Facturar <strong>punto 2</strong> y
-              el <strong>punto 3</strong> ACEPTAR para guardar cambios
+              nombre en el campo BUSCAR si no lo encuentra,ACEPTAR para guardar cambios
             </p>
             <div className="mt-5 mb-5">
               <img src="/nuevoExpedienteImgs/img1paso4.png" alt="img1paso4" />
@@ -143,9 +138,9 @@ function NuevoExpediente({ onAgenteClick }) {
               />
             </div>
             <p>
-              <strong>AUTOR DEL PROYECTO:</strong> Seleccionar el autor del
+              <strong>AUTOR DEL PROYECTO Y DIRECTOR DE OBRA:</strong> Seleccionar el autor del
               proyecto. Si no está dado de alta previamente se puede insertar
-              desde aquí, desde el botón <strong>NUEVO +</strong>.
+              desde aquí, desde el botón <strong>NUEVO +</strong>, hay que indicar los dos, aunque sean la misma persona .
               <div className="mt-5 mb-5">
                 <img src="/nuevoExpedienteImgs/img3paso4.png" alt="img4paso4" />
               </div>
@@ -189,20 +184,28 @@ function NuevoExpediente({ onAgenteClick }) {
             <div className="mt-5 mb-5">
               <img src="nuevoExpedienteImgs/paso7.png" alt="paso7" />
             </div>
-            <p><strong>GUARDAR. SE ACONSEJA GUARDAR ANTERIORMENTE TAMBIÉN.</strong></p>
+            <p>
+              <strong>
+                GUARDAR. SE ACONSEJA GUARDAR ANTERIORMENTE TAMBIÉN.
+              </strong>
+            </p>
             <p className="mb-4">
-          ⚠️ EN CASO DE FALTAR ALGÚN DATO, O QUE EXISTE ALGÚN DATO ERRÓNEO, SERÁ
-          INDICADO EN UN PANEL ROJO INFORMATIVO, DEBERÁ IR AL PUNTO INDICADO Y
-          RESOLVER EL ERROR.
-        </p>
-        <div className="mt-5 mb-5"><img src="nuevoExpedienteImgs/img1paso7.png" alt="Paso7img1" /></div>
+              ⚠️ EN CASO DE FALTAR ALGÚN DATO, O QUE EXISTE ALGÚN DATO ERRÓNEO,
+              SERÁ INDICADO EN UN PANEL ROJO INFORMATIVO, DEBERÁ IR AL PUNTO
+              INDICADO Y RESOLVER EL ERROR.
+            </p>
+            <div className="mt-5 mb-5">
+              <img src="nuevoExpedienteImgs/img1paso7.png" alt="Paso7img1" />
+            </div>
           </li>
         </ul>
         <button
-        className='bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-600 cursor-pointer mb-4'
-        onClick={initialScroll}
-      > Volver al inicio </button>
-        
+          className="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-600 cursor-pointer mb-4"
+          onClick={initialScroll}
+        >
+          {" "}
+          Volver al inicio{" "}
+        </button>
       </section>
     </div>
   );
