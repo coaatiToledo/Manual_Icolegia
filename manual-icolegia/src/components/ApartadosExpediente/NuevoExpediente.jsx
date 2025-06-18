@@ -10,7 +10,7 @@ function NuevoExpediente({ onAgenteClick }) {
   return (
     <div>
       <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-blue-700 mb-4 ml-40 text-center">
-        Crear un nuevo expediente digital
+        Crear un nuevo expediente digital haciendo pruebas
       </h2>
       <p className="mb-4 text-2xl">
         Antes de crear un Nuevo Expediente Digital es recomendable dar de alta
