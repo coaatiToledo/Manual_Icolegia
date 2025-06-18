@@ -3,11 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <header className="flex flex-col justify-end gap-3 h-100 mb-3 bg-[url('/toledo2.jpg')] bg-no-repeat bg-cover bg-center ">
-      {/* <img
-        src="logoIcolegia.png"
-        alt="Descripción de la imagen"
-        className="  object-cover rounded-full shadow-md    "
-      /> */}
+     
       <p className="mt-5  text-center text-white text-3xl font-bold">
         Bienvenido al manual de usario de <span className='text-4xl'>CoaatieToledo</span>
         <br />pincha en las pestañas de abajo para acceder a los disntintos apartados
