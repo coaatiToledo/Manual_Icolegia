@@ -10,7 +10,7 @@ function Header() {
       </p>
       
         <nav className='bg-black text-amber-50 w-full flex justify-around mt-2  py-2.5'  >
-         <a href="https://www.coaatietoledo.org/ " className='hover:text-blue-600'>Enlace coaatietoledo</a>
+         <a href="https://www.coaatietoledo.org/ " className='hover:text-blue-600'> www.coaatietoledo.org</a>
         <a href="https://icolegia.coaatietoledo.org:444/" className='hover:text-blue-600'>Icolegia</a>
         <a
           href="https://www.coaatietoledo.org/contacta/"
