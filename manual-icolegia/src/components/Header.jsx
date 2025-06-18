@@ -11,12 +11,12 @@ function Header() {
       
         <nav className='bg-black text-amber-50 w-full flex justify-around mt-2  py-2.5'  >
          <a href="https://www.coaatietoledo.org/ " className='hover:text-blue-600'>Enlace coaatietoledo</a>
-        <a href="https://icolegia.coaatietoledo.org:444/" className='hover:text-blue-600'>Enlace AppIcolegia</a>
+        <a href="https://icolegia.coaatietoledo.org:444/" className='hover:text-blue-600'>Icolegia</a>
         <a
-          href="mailto:administracion@coaatietoledo.org"
+          href="https://www.coaatietoledo.org/contacta/"
           className='hover:text-blue-600'
         >
-           ✉️ administracion@coaatietoledo.org
+           ✉️ Contacta con nosotros
         </a>
         <p className='hover:text-blue-600 cursor-pointer'>
         📞925-222.818 
