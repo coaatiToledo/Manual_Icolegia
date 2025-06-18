@@ -8,8 +8,8 @@ function NuevoExpediente({ onAgenteClick }) {
     });
   };
   return (
-    <div>
-      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-blue-700 mb-4 ml-40 text-center">
+    <div >
+      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-sky-700 mb-4 ml-40 text-center">
         Crear un nuevo expediente digital 
       </h2>
       <p className="mb-4 text-2xl">
@@ -19,7 +19,7 @@ function NuevoExpediente({ onAgenteClick }) {
       </p>
 
       <button
-        className="bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 cursor-pointer text-lg mb-10"
+        className="bg-sky-700 text-white px-5 py-2 rounded-lg hover:bg-sky-500 cursor-pointer text-lg mb-10"
         onClick={onAgenteClick}
       >
         Agente
@@ -142,7 +142,7 @@ function NuevoExpediente({ onAgenteClick }) {
         </ul>
 
         <button
-          className="bg-black text-white px-4 py-2 rounded-lg hover:bg-blue-600 cursor-pointer mb-4"
+          className="bg-sky-700 text-white px-4 py-2 rounded-lg hover:bg-sky-500 cursor-pointer mb-4"
           onClick={initialScroll}
         >
           Volver al inicio

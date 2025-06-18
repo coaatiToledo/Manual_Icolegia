@@ -2,9 +2,9 @@ import React from 'react'
 
 function Header() {
   return (
-    <header className="flex flex-col justify-end gap-3 h-100 mb-3 bg-[url('/toledo2.jpg')] bg-no-repeat bg-cover bg-center ">
-     
-      <p className="mt-5  text-center text-white text-3xl font-bold">
+    <header className="flex flex-col justify-between items-center gap-3 h-100 mb-3  bg-white  ">
+     <img src="/logo-icolegia.png" alt="" className='w-70 mt-6  p-3 shadow-2xl shadow-black   rounded-[15%] bg-white'  />
+      <p className="mt-5  text-center text-black text-3xl font-bold">
         Bienvenido al manual de usario de <span className='text-4xl'>CoaatieToledo</span>
         <br />pincha en las pestañas de abajo para acceder a los disntintos apartados
       </p>

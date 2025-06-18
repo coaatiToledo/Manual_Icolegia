@@ -6,15 +6,15 @@ function Incidencias() {
   const [mostrarDocumental, setMostrarDocumental] = useState(false);
 
   return (
-    <div>
-      <h1 className="text-5xl font-semibold text-blue-700 mb-8 ml-45 text-center ">
+    <div className="px-4 py-8 flex flex-col gap-8 bg-blue-100">
+      <h1 className="text-5xl font-semibold text-sky-700 mb-8 ml-45 text-center ">
         Resolución de incidencias
       </h1>
 
       <div className="flex items-center gap-4 mb-4">
         <h2 className="text-4xl font-semibold">1.Incidencia en los datos</h2>
         <button
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
           onClick={() => setMostrarDatos((v) => !v)}
         >
           {mostrarDatos ? "Cerrar" : "Ver"}
@@ -24,7 +24,7 @@ function Incidencias() {
         <>
           <Incendatos />
           <button
-            className="ml-2 mb-8 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            className="ml-2 mb-8 px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
             onClick={() => setMostrarDatos(false)}
           >
             Cerrar
@@ -35,7 +35,7 @@ function Incidencias() {
       <div className="flex items-center gap-4 mb-4">
         <h2 className="text-4xl font-semibold">2.Incidencia documental</h2>
         <button
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
           onClick={() => setMostrarDocumental((v) => !v)}
         >
           {mostrarDocumental ? "Cerrar" : "Ver"}

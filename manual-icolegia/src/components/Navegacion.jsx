@@ -14,7 +14,7 @@ function Navegacion() {
   ];
 
   return (
-    <div className="mt-10">
+    <div className="mt-10 ">
             <nav className="  flex gap-4 justify-center"> 
             {tabs.map((tab) => (
             <BtnNavegacion

@@ -20,7 +20,7 @@ function NuevoAgente({ onVolverClick }) {
         </li>
       </ul>
       <button
-        className='bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-600 cursor-pointer mb-4'
+        className='bg-sky-700 text-white px-4 py-2 rounded-lg hover:bg-sky-500 cursor-pointer mb-4'
         onClick={handleVolver}
       >
         Volver

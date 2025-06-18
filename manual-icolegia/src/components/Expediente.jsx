@@ -6,7 +6,7 @@ function Expediente() {
   const [mostrarAgente, setMostrarAgente] = React.useState(false);
 
   return (
-    <div className="px-4 py-8">
+    <div className="px-4 py-8 bg-blue-100">
       {!mostrarAgente ? (
         <NuevoExpediente onAgenteClick={() => setMostrarAgente(true)} />
       ) : (

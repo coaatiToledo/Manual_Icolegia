@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./src//*.{js,ts,jsx,tsx}",
-  ],
+  "./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}",
+],
   theme: {
     extend: {
       keyframes: {
@@ -14,6 +14,9 @@ export default {
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-out forwards',
+      },
+      colors: {
+        icolegia: '#156c94',
       },
     },
   },

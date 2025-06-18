@@ -26,7 +26,7 @@ function GenerarDocumentacion() {
           2.1 Solicitud de Gestión de Gastos de Tramitación
         </h3>
         <button
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
           onClick={() => setMostrarGastos((v) => !v)}
         >
           {mostrarGastos ? "Cerrar" : "Ver"}
@@ -36,7 +36,7 @@ function GenerarDocumentacion() {
         <>
           <SolicitudGastos />
           <button
-            className="ml-5 mb-8 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            className="ml-5 mb-8 px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
             onClick={() => setMostrarGastos(false)}
           >
             Cerrar
@@ -48,13 +48,13 @@ function GenerarDocumentacion() {
       <div className="flex items-center mb-4 ml-5 gap-4">
         <h3 className="text-3xl font-semibold m-0">
           2.2 Solicitud de Libro de Incidencias (
-          <span className="text-blue-500">
+          <span className="text-sky-700">
             si se quiere el libro de incidencias es obligatorio presentarlo
           </span>
           )
         </h3>
         <button
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
           onClick={() => setMostrarLibro((v) => !v)}
         >
           {mostrarLibro ? "Cerrar" : "Ver"}
@@ -64,7 +64,7 @@ function GenerarDocumentacion() {
         <>
           <LibroIncidencias />
           <button
-            className="ml-5 mb-8 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            className="ml-5 mb-8 px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
             onClick={() => setMostrarLibro(false)}
           >
             Cerrar
@@ -76,14 +76,14 @@ function GenerarDocumentacion() {
       <div className="flex items-center mb-4 ml-5 gap-4">
         <h3 className="text-3xl font-semibold m-0">
           2.3 Minuta (
-          <span className="text-blue-500">
+          <span className="text-sky-700">
             si se quieren cobrar los honorarios a través del colegio es
             obligatorio presentarlo.
           </span>
           )
         </h3>
         <button
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
           onClick={() => setMostrarMinuta((v) => !v)}
         >
           {mostrarminuta ? "Cerrar" : "Ver"}
@@ -93,7 +93,7 @@ function GenerarDocumentacion() {
         <>
           <Minuta />
           <button
-            className="ml-5 mb-8 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            className="ml-5 mb-8 px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
             onClick={() => setMostrarMinuta(false)}
           >
             Cerrar
@@ -105,7 +105,7 @@ function GenerarDocumentacion() {
       <div className="flex items-center mb-4 ml-5 gap-4">
         <h3 className="text-3xl font-semibold m-0">2.4 Solicitud de Visado</h3>
         <button
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
           onClick={() => setMostrarvisado((v) => !v)}
         >
           {mostrarsolicitudvisado ? "Cerrar" : "Ver"}
@@ -127,7 +127,7 @@ function GenerarDocumentacion() {
       <div className="flex items-center mb-4 ml-5 gap-4">
         <h3 className="text-3xl font-semibold m-0">2.5 Declaración Jurada</h3>
         <button
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
           onClick={() => setMostrardeclaracion((v) => !v)}
         >
           {mostrarsdeclaracionjurada ? "Cerrar" : "Ver"}
@@ -137,7 +137,7 @@ function GenerarDocumentacion() {
         <>
           <DeclaracionJurada />
           <button
-            className="ml-5 mb-8 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            className="ml-5 mb-8 px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
             onClick={() => setMostrardeclaracion(false)}
           >
             Cerrar
@@ -149,13 +149,13 @@ function GenerarDocumentacion() {
       <div className="flex items-center mb-4 ml-5 gap-4">
         <h3 className="text-3xl font-semibold m-0">
           2.6 Descarga de Documentos autocompletados(
-          <span className="text-blue-500">
+          <span className="text-sky-700">
             Nota de Encargo, Comunicación al Ayuntamiento, Contrato, Novación…
           </span>
           )
         </h3>
         <button
-          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          className="px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
           onClick={() => setMostrarDescargaDoc((v) => !v)}
         >
           {mostrarsdeDescargaDoc ? "Cerrar" : "Ver"}
@@ -165,7 +165,7 @@ function GenerarDocumentacion() {
         <>
           <DescargaDoc />
           <button
-            className="ml-5 mb-8 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            className="ml-5 mb-8 px-4 py-2 bg-sky-700 text-white rounded hover:bg-sky-500"
             onClick={() => setMostrarDescargaDoc(false)}
           >
             Cerrar
